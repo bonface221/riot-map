@@ -12,7 +12,8 @@ class Location(models.Model):
 
 class Account(models.Model):
     user = models.OneToOneField(User,on_delete=models.CASCADE)
-    
+    first_name = models.CharField(max_length=30, null=True)
+    last_name = models.CharField(max_length=30, null=True)
 
    
 

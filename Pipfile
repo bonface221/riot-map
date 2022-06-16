@@ -5,8 +5,14 @@ name = "pypi"
 
 [packages]
 django = "*"
+cloudinary = "*"
+dj-database-url = "*"
+python-decouple = "*"
+psycopg2 = "*"
+whitenoise = "*"
+django-bootstrap3 = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.8"

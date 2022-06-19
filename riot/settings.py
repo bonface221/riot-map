@@ -1,4 +1,5 @@
 from pathlib import Path
+from pickle import TRUE
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
@@ -19,11 +20,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = TRUE
 
 MODE='dev'
 
-ALLOWED_HOSTS = ['.localhost', '.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -118,7 +119,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 
